@@ -17,14 +17,16 @@ body {
     display: inline-block;
     width: 15%;
     margin: 0px 80px 0px 80px;
+}
 
+.menu a:hover {
+    color: black;
 }
 
 .menu img {
     width: 100px;
-    margin-left: 60px;
+    margin-left: 60px;   
 }
-
 
 #titulo_pagina {
     margin-left: 30px;
@@ -44,6 +46,7 @@ body {
 }
 
 
+
 .produtos {
     border: 0px solid red;
     width: 80%;
@@ -58,10 +61,8 @@ body {
     display: inline-block; 
     text-align: center;       
     padding: 25px; 
-    font-size: 14px;        
+    font-size: 14px;       
 }
-
-
 
 #preço_antes {
     text-decoration: line-through;    
