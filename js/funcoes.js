@@ -33,7 +33,7 @@ let mouseLista = () => {
     let elementos = document.getElementsByTagName('li');
 
     for (var i = 0; i < elementos.length; i++) {      
-        elementos[i].style = "cursor: pointer; ";
+        elementos[i].style = "cursor: pointer";
     } 
 }
 
@@ -49,7 +49,6 @@ function destaque(imagem) {
         imagem.width = 120;
     }
 }
-
 
 
 
